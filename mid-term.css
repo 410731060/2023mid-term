@@ -1,0 +1,115 @@
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+}
+
+body {
+  background: #fff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+}
+.top{
+    padding-left: 30px;
+    padding-right: 30px;
+    -webkit-text-stroke:1px rgba(0, 0, 0, 0.81);
+}
+.st{
+    font-size: 24px;
+}
+.sut{
+    font-size: medium;
+    padding-top: 310px;
+    padding-left: 160px;
+    -webkit-text-stroke:0.5px rgba(0, 0, 0, 0.836);
+}
+.context{
+    background-color: #78baf448;
+    font-size: larger;
+}
+.caption{
+    background-color: #78baf448;
+    font-size: 22px;;
+}
+h1{
+    background-color: #78baf448;
+}
+.box{
+    display: flex;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  width: 400px;
+  height: 600px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-slide:nth-child(1n) {
+  background-color: rgb(206, 17, 17);
+  background-image: url(./img/1.jpg);
+  background-size: 100% 100%;
+}
+
+.swiper-slide:nth-child(2n) {
+  background-color: rgb(0, 140, 255);
+  background-image: url(https://img.freepik.com/free-vector/joystick-game-sport-technology_138676-2045.jpg?w=2000);
+  background-size: 100% 100%;
+}
+
+.swiper-slide:nth-child(3n) {
+  background-color: rgb(10, 184, 111);
+  background-image: url(https://img.etimg.com/thumb/msid-71477539,width-650,height-488,imgsize-622277,,resizemode-75/music_thinkstockphotos.jpg);
+  background-size: 100% 100%;
+}
+
+.swiper-slide:nth-child(4n) {
+  background-color: rgb(211, 122, 7);
+  background-image: url(https://media.self.com/photos/5c360cc973e3cb2ca1e0fd35/4:3/w_2560%2Cc_limit/table-tennis.jpg);
+}
+
+.swiper-slide:nth-child(5n) {
+  background-color: rgb(118, 163, 12);
+  background-image: url(https://docs.krita.org/en/_images/Introduction_to_animation_walkcycle_02.gif);
+  background-size: 100% 100%;
+}
+
+.swiper-slide:nth-child(6n) {
+  background-color: rgb(180, 10, 47);
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406__480.jpg);
+  background-size: 100% 100%;
+}
+
+.swiper-slide:nth-child(7n) {
+  background-color: rgb(35, 99, 19);
+  background-image: url(data:image/png;base64,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);
+  background-size: 100% 100%;
+}
